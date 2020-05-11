@@ -28,4 +28,13 @@ $( document ).ready(function() {
     		console.log("Recibo con error "+data);
     	});
     });
+
+    $("#cerrar_sesion").click(function(event) {
+        event.preventDefault();
+        $.ajax({
+            url: 'Controllers/mainController.php?opt=logout',
+        }).then(function(){
+            location.reload();
+        });
+    });
 });

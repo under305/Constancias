@@ -4,7 +4,8 @@
 	<title>Constancias</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="css/navbar.css">	
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/fixed_modal.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,6 +21,7 @@
 		}else{
 			include_once 'templates/dashboard.html';
 		}
+		include_once 'modals/addNewUser.html';
 	?>
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/bootstrap.js"></script>

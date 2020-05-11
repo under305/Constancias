@@ -7,6 +7,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
+    background-image: '../img/bg.png';
+    background-repeat: repeat-y;
 }
 
 .wave{
@@ -362,6 +364,12 @@ main {
     height: 5rem;
   }
 
+  .modal-body{
+    align-content: center;
+    align-content: center;
+    margin: .5rem;
+  }
+
   .logo {
     display: none;
   }
@@ -385,6 +393,12 @@ main {
     top: 0;
     width: 5rem;
     height: 100vh;
+  }
+
+  .modal-body{
+    align-content: center;
+    align-content: center;
+    padding: 4rem;
   }
 
   .navbar:hover {

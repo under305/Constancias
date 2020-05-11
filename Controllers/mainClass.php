@@ -1,6 +1,6 @@
 <?php 
     class ConnectionDB{
-        private $host = "www.remotemysql.com";
+        private $host = "";
         private $user = "PNlFXONIR4";
         private $password = "1scucBD669";
         private $db = "PNlFXONIR4";

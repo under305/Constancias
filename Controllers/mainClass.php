@@ -1,9 +1,9 @@
 <?php 
     class ConnectionDB{
-        private $host = "www.remotemysql.com";
-        private $user = "PNlFXONIR4";
-        private $password = "1scucBD669";
-        private $db = "PNlFXONIR4";
+        private $host = "localhost";
+        private $user = "root";
+        private $password = "nomelase123";
+        private $db = "constancias";
         public $conn;
 
         //Constructor class

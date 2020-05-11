@@ -1,11 +1,11 @@
 <?php 
     class ConnectionDB{
-        private $host = "localhost";
-        private $user = "root";
-        private $password = "nomelase123";
-        private $db = "constancias";
+        private $host = "www.remotemysql.com";
+        private $user = "PNlFXONIR4";
+        private $password = "1scucBD669";
+        private $db = "PNlFXONIR4";
         public $conn;
-        
+
         //Constructor class
         function __construct(){
             $this->conn = new mysqli($this->host, $this->user, $this->password,$this->db) or die(mysql_error());
